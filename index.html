@@ -1,306 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Buthaina Mahmoud — Flutter Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Buthaina Mahmoud — Flutter Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+
 </head>
+
 <body>
 
-<div class="hero-glow glow1"></div>
-<div class="hero-glow glow2"></div>
+  <div class="hero-glow glow1"></div>
+  <div class="hero-glow glow2"></div>
 
-<!-- NAV -->
-<nav>
-  <a href="#hero" class="nav-logo">B<span>.</span>Mahmoud</a>
-  <ul class="nav-links">
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <a href="https://github.com/Bosinamahmoud" target="_blank" class="btn btn-ghost" style="padding:0.5rem 1.1rem; font-size:0.82rem;">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
-    GitHub
-  </a>
-</nav>
-
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-grid">
-    <div>
-      <div class="hero-badge">Available for internships · Giza, Egypt</div>
-      <h1 class="hero-title">
-        Flutter<br>
-        <em>Developer</em><br>
-        & CS Student
-      </h1>
-      <p class="hero-sub">
-        Building beautiful, cross-platform mobile apps with Flutter & Dart. Passionate about clean architecture, great UX, and shipping real products.
-      </p>
-      <div class="hero-cta">
-        <a href="#projects" class="btn btn-primary">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-          View Projects
-        </a>
-        <a href="#contact" class="btn btn-ghost">Get in touch →</a>
-      </div>
-    </div>
-    <div class="hero-visual">
-      <div style="position:relative; display:inline-block;">
-        <div class="avatar-ring">
-          <div class="avatar-inner">BM</div>
-        </div>
-        <div class="float-chip chip1">Flutter & Dart</div>
-        <div class="float-chip chip2">Firebase 🔥</div>
-        <div class="float-chip chip3">Bloc · Cubit</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- STATS -->
-<div style="padding: 0 5vw; max-width:1100px; margin:0 auto 6rem;">
-  <div class="stats-bar">
-    <div class="stat-item">
-      <div class="stat-num">4+</div>
-      <div class="stat-label">Projects shipped</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">3.36</div>
-      <div class="stat-label">GPA — Cairo University</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-num">2026</div>
-      <div class="stat-label">Graduating June</div>
-    </div>
-  </div>
-</div>
-
-<!-- SKILLS -->
-<section id="skills">
-  <div class="section-label">Technical Skills</div>
-  <h2 class="section-title">What I work with</h2>
-  <p class="section-sub">A focused stack built around Flutter mobile development, clean architecture, and Firebase.</p>
-
-  <div class="skills-grid">
-    <div class="skill-card">
-      <div class="skill-card-icon" style="background:rgba(108,99,255,0.15);">📱</div>
-      <div class="skill-card-title">Mobile Development</div>
-      <div class="tags">
-        <span class="tag">Flutter</span>
-        <span class="tag">Dart</span>
-        <span class="tag">Cross-platform</span>
-        <span class="tag">Android</span>
-        <span class="tag">iOS</span>
-      </div>
-    </div>
-    <div class="skill-card">
-      <div class="skill-card-icon" style="background:rgba(45,212,191,0.15);">🔥</div>
-      <div class="skill-card-title">Backend & APIs</div>
-      <div class="tags">
-        <span class="tag teal">Firebase Auth</span>
-        <span class="tag teal">Firestore</span>
-        <span class="tag teal">REST APIs</span>
-        <span class="tag teal">Dio</span>
-        <span class="tag teal">Paymob</span>
-      </div>
-    </div>
-    <div class="skill-card">
-      <div class="skill-card-icon" style="background:rgba(244,114,182,0.15);">🏗️</div>
-      <div class="skill-card-title">Architecture & Patterns</div>
-      <div class="tags">
-        <span class="tag pink">Bloc</span>
-        <span class="tag pink">Cubit</span>
-        <span class="tag pink">Clean Architecture</span>
-        <span class="tag pink">SOLID</span>
-        <span class="tag pink">Design Patterns</span>
-        <span class="tag pink">OOP</span>
-      </div>
-    </div>
-    <div class="skill-card">
-      <div class="skill-card-icon" style="background:rgba(144,144,168,0.15);">⚙️</div>
-      <div class="skill-card-title">Languages & Tools</div>
-      <div class="tags">
-        <span class="tag gray">Python</span>
-        <span class="tag gray">C++</span>
-        <span class="tag gray">Java</span>
-        <span class="tag gray">Git</span>
-        <span class="tag gray">Android Studio</span>
-        <span class="tag gray">VS Code</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- PROJECTS -->
-<section id="projects">
-  <div class="section-label">Projects</div>
-  <h2 class="section-title">Things I've built</h2>
-  <p class="section-sub">Real-world Flutter applications demonstrating end-to-end mobile development.</p>
-
-  <div class="projects-grid">
-
-    <div class="project-card pc1">
-      <div class="project-header">
-        <div class="project-emoji" style="background:rgba(108,99,255,0.15);">🏥</div>
-        <a href="https://github.com/Bosinamahmoud/Medical-App" target="_blank" class="project-link">
-          GitHub
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-        </a>
-      </div>
-      <h3 class="project-name">Doctor Appointment Booking</h3>
-      <p class="project-desc">Full healthcare app with user registration, doctor search by name & specialty, appointment booking, and secure Paymob payment gateway integration. Includes booking history and user profiles.</p>
-      <div class="project-tech">
-        <span class="tag">Flutter</span>
-        <span class="tag">Firebase</span>
-        <span class="tag">Paymob</span>
-        <span class="tag teal">Auth</span>
-        <span class="tag teal">Firestore</span>
-      </div>
-    </div>
-
-    <div class="project-card pc2">
-      <div class="project-header">
-        <div class="project-emoji" style="background:rgba(45,212,191,0.15);">🛍️</div>
-        <a href="https://github.com/Bosinamahmoud/E-Commerce" target="_blank" class="project-link">
-          GitHub
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-        </a>
-      </div>
-      <h3 class="project-name">Shoppe — E-Commerce App</h3>
-      <p class="project-desc">End-to-end e-commerce experience with smooth product browsing, cart management, and optimised checkout flow. Uses Bloc/Cubit for state management and supports multiple platforms.</p>
-      <div class="project-tech">
-        <span class="tag">Flutter</span>
-        <span class="tag">Firebase</span>
-        <span class="tag teal">Bloc/Cubit</span>
-        <span class="tag teal">Dio</span>
-        <span class="tag teal">Provider</span>
-      </div>
-    </div>
-
-    <div class="project-card pc3">
-      <div class="project-header">
-        <div class="project-emoji" style="background:rgba(244,114,182,0.15);">⚡</div>
-        <a href="https://github.com/Bosinamahmoud/Hackathon" target="_blank" class="project-link">
-          GitHub
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-        </a>
-      </div>
-      <h3 class="project-name">iSupply Hackathon — UI/UX Redesign</h3>
-      <p class="project-desc">Redesigned the Home Screen & Product Card for a B2B pharma marketplace. Built Credit Widget, Best Invoice Widget, Features Grid, and Product Card with discount badge under hackathon time pressure.</p>
-      <div class="project-tech">
-        <span class="tag pink">Flutter</span>
-        <span class="tag pink">UI/UX</span>
-        <span class="tag pink">B2B</span>
-        <span class="tag pink">Hackathon</span>
-      </div>
-    </div>
-
-    <div class="project-card pc4">
-      <div class="project-header">
-        <div class="project-emoji" style="background:rgba(245,158,11,0.15);">🚗</div>
-        <a href="https://github.com/Bosinamahmoud/Car-Rental-Management-System" target="_blank" class="project-link">
-          GitHub
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-        </a>
-      </div>
-      <h3 class="project-name">Car Rental Management System</h3>
-      <p class="project-desc">OOP-heavy Dart system with Polymorphism across Economy, Sports & Electric car types. Covers customer registration, booking management, invoice generation, and late-return penalty calculation.</p>
-      <div class="project-tech">
-        <span class="tag gray">Dart</span>
-        <span class="tag gray">OOP</span>
-        <span class="tag gray">Polymorphism</span>
-        <span class="tag gray">Design Patterns</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- ABOUT -->
-<section id="about">
-  <div class="section-label">About Me</div>
-  <h2 class="section-title">Who I am</h2>
-
-  <div class="about-grid">
-    <div class="about-text">
-      <p>I'm <strong>Buthaina Mahmoud Elbanna</strong>, a Computer Science & AI student at Cairo University (graduating June 2026, GPA 3.36/4.0), specialising in Information Systems.</p>
-      <p>I focus on <strong>Flutter mobile development</strong> — building cross-platform apps that are fast, clean, and actually enjoyable to use. I care about architecture, state management, and writing code that lasts.</p>
-      <p>Outside of coursework I've shipped real apps with Firebase, integrated payment gateways, and redesigned production UIs under hackathon pressure. I'm actively looking for <strong>Flutter internships in Egypt</strong>.</p>
-      <div style="margin-top:1.5rem; display:flex; flex-wrap:wrap; gap:8px;">
-        <span class="tag teal">Cairo University</span>
-        <span class="tag teal">GPA 3.36 / 4.0</span>
-        <span class="tag teal">CS & AI</span>
-        <span class="tag">Native Arabic</span>
-        <span class="tag gray">ECPC Participant</span>
-      </div>
-    </div>
-
-    <div>
-      <div class="timeline">
-        <div class="tl-item">
-          <div class="tl-date">2024 – 2025</div>
-          <div class="tl-title">Flutter Committee Member — Minders Student Activity</div>
-          <div class="tl-desc">Built team-based Flutter projects, mentored junior members on Flutter fundamentals, collaborated on mobile app design and implementation.</div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-date">2024</div>
-          <div class="tl-title">iSupply Hackathon Participant</div>
-          <div class="tl-desc">Redesigned B2B pharma marketplace Home Screen and Product Card UI in Flutter under tight hackathon constraints.</div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-date">2024</div>
-          <div class="tl-title">Doctor Appointment App</div>
-          <div class="tl-desc">Shipped a full healthcare Flutter app with Firebase and Paymob payment integration from scratch.</div>
-        </div>
-        <div class="tl-item">
-          <div class="tl-date">Sep 2022</div>
-          <div class="tl-title">Cairo University — BS Computer Science & AI</div>
-          <div class="tl-desc">Information Systems specialisation. Activities: ECPC (Egyptian Collegiate Programming Contest).</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- CONTACT -->
-<section id="contact">
-  <div class="section-label" style="justify-content:center;">Contact</div>
-  <h2 class="section-title">Let's connect</h2>
-  <p class="section-sub">Open to Flutter internships in Egypt. Feel free to reach out!</p>
-
-  <div class="contact-links">
-    <a href="tel:+201030192591" class="contact-chip">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-      +20 1030192591
-    </a>
-    <a href="https://github.com/Bosinamahmoud" target="_blank" class="contact-chip">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">Buthaina<span>.</span>Mahmoud</a>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="https://github.com/Bosinamahmoud" target="_blank" class="btn btn-ghost"
+      style="padding:0.5rem 1.1rem; font-size:0.82rem;">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15">
+        <path
+          d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+      </svg>
       GitHub
     </a>
-    <a href="https://www.linkedin.com/in/buthaina-mahmoud" target="_blank" class="contact-chip">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-      LinkedIn
-    </a>
-    <span class="contact-chip" style="cursor:default;">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-      Giza, Egypt
-    </span>
-  </div>
-</section>
+  </nav>
 
-<footer>
-  <p>Built with HTML · Buthaina Mahmoud Elbanna · 2025</p>
-</footer>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-badge">Available for Work · Giza, Egypt</div>
+        <h1 class="hero-title">
+          Flutter<br>
+          <em>Developer</em><br>
+
+        </h1>
+        <p class="hero-sub">
+          Building scalable, cross-platform mobile apps with Flutter & Dart. Dedicated to Clean Architecture, intuitive
+          UX, and delivering high-impact products
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get in touch →</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div style="position:relative; display:inline-block;">
+          <div class="avatar-ring">
+            <div class="avatar-inner">BM</div>
+          </div>
+          <div class="float-chip chip1">Flutter & Dart</div>
+          <div class="float-chip chip2">Firebase 🔥</div>
+          <div class="float-chip chip3">Bloc · Cubit</div>
+          <div class="float-chip chip4">Clean Architecture</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div style="padding: 0 5vw; max-width:1100px; margin:0 auto 6rem;">
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-num">6+</div>
+        <div class="stat-label">Projects Completed</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">3.36</div>
+        <div class="stat-label">GPA — Cairo University</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">2026</div>
+        <div class="stat-label">Graduating June</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+
+  <section id="skills">
+    <div class="section-label">Technical Skills</div>
+    <h2 class="section-title">What I work with</h2>
+    <p class="section-sub">A focused stack built around Flutter mobile development, clean architecture, and Firebase.
+    </p>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-card-icon" style="background:rgba(108,99,255,0.15);">📱</div>
+        <div class="skill-card-title">Mobile Development</div>
+        <div class="tags">
+          <span class="tag">Flutter</span>
+          <span class="tag">Dart</span>
+          <span class="tag">Cross-platform</span>
+          <span class="tag">Android</span>
+          <span class="tag">iOS</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon" style="background:rgba(45,212,191,0.15);">🔥</div>
+        <div class="skill-card-title">Backend & APIs</div>
+        <div class="tags">
+          <span class="tag teal">Firebase Auth</span>
+          <span class="tag teal">Firestore</span>
+          <span class="tag teal">REST APIs</span>
+          <span class="tag teal">Dio</span>
+
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon" style="background:rgba(244,114,182,0.15);">🏗️</div>
+        <div class="skill-card-title">Architecture & Patterns</div>
+        <div class="tags">
+          <span class="tag pink">Bloc</span>
+          <span class="tag pink">Cubit</span>
+          <span class="tag pink">Clean Architecture</span>
+          <span class="tag pink">MVVM</span>
+          <span class="tag pink">SOLID</span>
+          <span class="tag pink">Design Patterns</span>
+          <span class="tag pink">OOP</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-card-icon" style="background:rgba(144,144,168,0.15);">⚙️</div>
+        <div class="skill-card-title">Languages & Tools</div>
+        <div class="tags">
+          <span class="tag gray">Python</span>
+          <span class="tag gray">C++</span>
+          <span class="tag gray">Java</span>
+          <span class="tag gray">Git</span>
+          <span class="tag gray">Android Studio</span>
+          <span class="tag gray">VS Code</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="academic-section">
+    <div class="section-header">
+      <span class="section-label">Education Focus</span>
+      <h2 class="section-title">Academic Foundation</h2>
+      <p class="section-sub">Key coursework from my Information Systems major at Cairo University.</p>
+    </div>
+
+    <div class="academic-grid">
+      <div class="academic-card">
+        <div class="card-icon">💻</div>
+        <h3>Software Engineering</h3>
+        <ul class="course-list">
+          <li>Data Structures & Algorithms</li>
+          <li>Object-Oriented Programming</li>
+          <li>Operating Systems</li>
+          <li>Software Engineering</li>
+          <li>Web Technologies</li>
+        </ul>
+      </div>
+
+      <div class="academic-card">
+        <div class="card-icon">📊</div>
+        <h3>Information Systems</h3>
+        <ul class="course-list">
+          <li>Database Management (DBMS)</li>
+          <li>Systems Analysis & Design</li>
+          <li>Big Data </li>
+          <li>Data Warehouse</li>
+
+          <li>Geographic Info Systems (GIS)</li>
+        </ul>
+      </div>
+
+      <div class="academic-card">
+        <div class="card-icon">🧠</div>
+        <h3>Intelligence Systems</h3>
+        <ul class="course-list">
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+          <li>Data Engineering</li>
+          <li>Data Mining</li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">Projects</div>
+    <h2 class="section-title">Things I've built</h2>
+    <p class="section-sub">Real-world Flutter applications demonstrating end-to-end mobile development.</p>
+
+
+    <div class="projects-grid">
+
+      <div class="project-card pc1">
+        <div class="project-header">
+          <div class="project-emoji" style="background:rgba(108,99,255,0.15);">🏥</div>
+          <a href="https://github.com/Bosinamahmoud/Medical-App" target="_blank" class="project-link">
+            GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+        <h3 class="project-name">Doctor Appointment Booking</h3>
+        <p class="project-desc">Full healthcare app with user registration, doctor search by name & specialty,
+          appointment booking, and secure Paymob payment gateway integration.</p>
+        <div class="project-tech">
+          <span class="tag tag-flutter">Flutter</span>
+          <span class="tag tag-firebase">Firebase</span>
+          <span class="tag tag-api">Paymob</span>
+          <span class="tag tag-logic">Auth</span>
+          <span class="tag tag-db">Firestore</span>
+        </div>
+      </div>
+
+      <div class="project-card pc3">
+        <div class="project-header">
+          <div class="project-emoji" style="background:rgba(244,114,182,0.15);">⚡</div>
+          <a href="https://github.com/Bosinamahmoud/Hackathon" target="_blank" class="project-link">
+            GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+        <h3 class="project-name">iSupply Hackathon — UI/UX Redesign</h3>
+        <p class="project-desc">Redesigned the Home Screen & Product Card for a B2B pharma marketplace. Built Credit
+          Widget, Features Grid, and Product Card under hackathon time pressure.</p>
+        <div class="project-tech">
+          <span class="tag tag-flutter">Flutter</span>
+          <span class="tag tag-ui">UI/UX</span>
+          <span class="tag tag-logic">B2B</span>
+          <span class="tag tag-ui">Hackathon</span>
+        </div>
+      </div>
+
+      <div class="project-card pc5">
+        <div class="project-header">
+          <div class="project-emoji" style="background:rgba(45,212,191,0.15);">✅</div>
+          <a href="https://github.com/Bosinamahmoud/Task_Manager_App" target="_blank" class="project-link">
+            GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+        <h3 class="project-name">Task Management System</h3>
+        <p class="project-desc">Feature-rich productivity app with full CRUD operations for task lifecycle management,
+          featuring priority levels and real-time updates.</p>
+        <div class="project-tech">
+          <span class="tag tag-flutter">Flutter</span>
+          <span class="tag tag-logic">Cubit/Bloc</span>
+          <span class="tag tag-db">Local Database</span>
+          <span class="tag tag-api">Dio</span>
+          <span class="tag tag-firebase">Firebase</span>
+        </div>
+      </div>
+
+      <div class="project-card pc6">
+        <div class="project-header">
+          <div class="project-emoji" style="background:rgba(239,68,68,0.15);">🥘</div>
+          <a href="https://github.com/Bosinamahmoud/Meals_App" target="_blank" class="project-link">
+            GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+        <h3 class="project-name">Meals Explorer</h3>
+        <p class="project-desc">A personalized recipe management app built with Flutter. It allows users to create,
+          save, and organize their own culinary recipes.</p>
+        <div class="project-tech">
+          <span class="tag tag-flutter">Flutter</span>
+          <span class="tag tag-db">Local Database</span>
+          <span class="tag tag-logic">Provider</span>
+          <span class="tag tag-ui">Animations</span>
+        </div>
+      </div>
+
+      <div class="project-card pc7">
+        <div class="project-header">
+          <div class="project-emoji" style="background:rgba(59, 130, 246, 0.15);">📰</div>
+          <a href="https://github.com/Bosinamahmoud/News-App" target="_blank" class="project-link">
+            GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+        <h3 class="project-name">Real-time News Explorer</h3>
+        <p class="project-desc">A dynamic news aggregator fetching global headlines via RESTful APIs with seamless
+          category switching and optimized image loading.</p>
+        <div class="project-tech">
+          <span class="tag tag-flutter">Flutter</span>
+          <span class="tag tag-api">REST API</span>
+          <span class="tag tag-api">Dio</span>
+          <span class="tag tag-logic">Localization</span>
+        </div>
+      </div>
+
+      <div class="project-card pc4">
+        <div class="project-header">
+          <div class="project-emoji" style="background:rgba(245,158,11,0.15);">🚗</div>
+          <a href="https://github.com/Bosinamahmoud/Car-Rental-Management-System" target="_blank" class="project-link">
+            GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+        <h3 class="project-name">Car Rental System</h3>
+        <p class="project-desc">OOP-heavy Dart system with Polymorphism across car types. Covers booking management,
+          invoice generation, and late-return penalties.</p>
+        <div class="project-tech">
+          <span class="tag tag-dart">Dart</span>
+          <span class="tag tag-logic">OOP</span>
+          <span class="tag tag-logic">Design Patterns</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title">Who I am</h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm <strong>Buthaina Mahmoud</strong>, a Computer Science & AI student at <strong>Cairo University</strong>
+          (Class of 2026), specializing in Information Systems with a current <strong>GPA of 3.36/4.0</strong>.</p>
+
+        <p>As a <strong>Flutter Developer</strong>, I don't just build screens; I craft high-performance, scalable
+          mobile experiences. I’m deeply invested in clean architecture, efficient state management, and writing
+          maintainable code that solves real problems.</p>
+
+        <p> I am currently seeking <strong>Flutter opportunities</strong> in Egypt.</p>
+
+        <div style="margin-top:1.75rem; display:flex; flex-wrap:wrap; gap:10px;">
+          <span class="tag teal">🎓 Cairo University</span>
+          <span class="tag teal">📊 GPA 3.36 / 4.0</span>
+          <span class="tag teal">💻 Flutter & Dart</span>
+          <span class="tag gray">🧠 ECPC Participant</span>
+          <span class="tag">🌍 Native Arabic</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-date">2024 – 2025</div>
+            <div class="tl-title">Flutter Committee Member — Minders Student Activity</div>
+            <div class="tl-desc">Built team-based Flutter projects and
+              collaborated on mobile app design and implementation.</div>
+          </div>
+
+          <div class="tl-item">
+            <div class="tl-date">2023 – 2024</div>
+            <div class="tl-title">Two-time Contestant at ECPC — ICPC Egypt</div>
+            <div class="tl-desc">
+              Participated in the Egyptian Collegiate Programming Contest for two consecutive years.
+              Developed strong problem-solving skills using C++, with a focus on data structures
+              and algorithmic logic.
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-date">Sep 2022</div>
+            <div class="tl-title">Cairo University — BS Computer Science & AI</div>
+            <div class="tl-desc">Information Systems specialisation.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label" style="justify-content:center;">Contact</div>
+    <h2 class="section-title">Let's connect</h2>
+    <p class="section-sub">Open to Flutter work in Egypt. Feel free to reach out!</p>
+
+    <div class="contact-links">
+      <a href="tel:+201030192591" class="contact-chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.22 1.18 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.56-.56a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+        </svg>
+        +20 1030192591
+      </a>
+      <a href="https://github.com/Bosinamahmoud" target="_blank" class="contact-chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+        </svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/buthaina-elbanna-9323aa25b/" target="_blank" class="contact-chip">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+          <rect x="2" y="9" width="4" height="12" />
+          <circle cx="4" cy="4" r="2" />
+        </svg>
+        LinkedIn
+      </a>
+      <span class="contact-chip" style="cursor:default;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
+        Giza, Egypt
+      </span>
+    </div>
+  </section>
+
+  <footer>
+    <p> Buthaina Mahmoud Elbanna · 2026</p>
+  </footer>
 
 </body>
+
 </html>
